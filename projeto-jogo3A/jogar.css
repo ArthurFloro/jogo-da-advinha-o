@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pixelify Sans", sans-serif;
+  color: white;
+}
+
+body {
+  background: black;
+}
+
+.respota input {
+  color: black;
+}
+
+.d1 {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  font-size: 30px;
+}
+
+.d2 {
+  position: absolute;
+  left: 15%;
+  top: 35%;
+  font-size: 30px;
+}
+
+.d3 {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  font-size: 30px;
+}
+
+body {
+  background: black;
+  background-image: url("fundo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.respota input {
+  font-size: 20px;
+}
+
+.respota {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+
+.respota button {
+  position: absolute;
+  top: 150%;
+  left: 30%;
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}

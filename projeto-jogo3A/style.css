@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pixelify Sans", sans-serif;
+  color: white;
+}
+
+body {
+  background: black;
+  background-image: url("fundo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  position: absolute;
+  top: 35%;
+  left: 33%;
+  font-size: 65px;
+}
+
+/* .botao a {
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  font-size: 35px;
+  text-decoration: none;
+  background-color: color(green);
+  transition: 0.5s;
+  opacity: 0.7;
+} */
+
+.botao a {
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  font-size: 35px;
+  text-decoration: none;
+  background-color: color(green);
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+.botao a:hover {
+  background-color: green;
+}
+
+#portal {
+    position: absolute;
+    top: 9%;
+    left: 63%;
+    transform: scale(0.7); 
+  }
+  
+span{
+    margin-left: 200px;
+}
+
